@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid text-center">
+
+  <div class="adjusters container-fluid text-center">
+    <!--     <h1>Pomodoro Clock</h1> -->
+     <div id="timer" >
+      </div>
+      <div class="row">
+      <div class="col-sm-6 col-xs-6">
+        Break Length<br>
+        <div id="break"><div class="btn btn-primary btn-xs inc-time">+</div>&nbsp<div class="value">5</div>&nbsp<div class="btn btn-primary btn-xs dec-time">-</div></div>
+        
+      </div>
+      <div class="col-sm-6 col-xs-6">
+       Session Length<br>
+        <div id="session"><div class="btn btn-primary btn-xs inc-time">+</div>&nbsp<div class="value">25</div>&nbsp<div class="btn btn-primary btn-xs dec-time">-</div></div>
+        
+      </div>
+    </div>
+    <div id="msg" class="current"></div>
+    <br>
+        <div>
+      <button class="button" id="stop">Start</button>
+      <button class="button" id="reset">Reset</button>
+    </div>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

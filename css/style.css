@@ -1,0 +1,49 @@
+.adjusters{
+  border-radius:10%;
+  width:360px;
+  height:auto;
+  border-style:solid;
+  margin-top:10%;
+  padding:20px;
+  display:block;
+}
+#timer{
+  width:100%;
+}
+.btn-primary{
+ color:silver;
+  background-color:#333333;
+}
+.btn-primary:hover{
+  color:#333333;
+  background-color:silver;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: silver;
+  background-color: #333333;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: silver;
+color:#333333;}
+
+.button:active {
+  background-color: #333333;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#break {
+  display:inline-flex;
+}
+
+#session{
+  display:inline-flex;
+}
